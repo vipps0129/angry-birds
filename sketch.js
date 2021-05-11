@@ -127,7 +127,7 @@ bird.a=[]
 }
  //js consists of synchronous functions means it executes everything together
   async function getTime(){ 
-    var r= await fetch('http://worldtimeapi.org/api/timezone/Asia/Kolkata') 
+    var r= await fetch('https://worldtimeapi.org/api/timezone/Asia/Kolkata') 
     var rj=await r.json() 
     var dt=rj.datetime 
     var h=dt.slice(11,13) 
